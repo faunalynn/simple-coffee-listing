@@ -1,0 +1,26 @@
+@import './variables.scss';
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  background-color: $bg-color2;
+  background-image: url('../assets/image\ 5.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% auto;
+}
+
+#main-container {
+  border: red solid 1px;
+  height: 90vh;
+  width: 30vh;
+  margin: 7rem 0 0 0;
+  border-radius: 12px;
+  background-color: $bg-color;
+}
+
+
